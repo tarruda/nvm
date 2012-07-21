@@ -302,4 +302,5 @@ nvm()
   esac
 }
 
-nvm ls default >/dev/null 2>&1 && nvm use default >/dev/null
+#nvm ls default >/dev/null 2>&1 && nvm use default >/dev/null
+nvm alias default v0.8.3 
